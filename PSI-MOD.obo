@@ -41183,7 +41183,7 @@ is_a: MOD:02098 ! residue modified by radical mechanism
 [Term]
 id: MOD:02100
 name: N2-Formyl-L-asparagine
-def: "A protein modification that effectively transforms an L-histidine residue to N2-formyl asparagine" [OSTI ID:6518101, doi:10.1016/0040-4039(91)80099-R]
+def: "A protein modification that effectively transforms an L-histidine residue to N2-formyl asparagine" [osti.article:6518101, doi:10.1016/0040-4039(91)80099-R]
 synonym: "Nω-formyl asparagine" EXACT PSI-MOD-label []
 synonym: "(2S)-4-amino-2-formamido-4-oxobutanoic acid" EXACT PSI-MOD-label []
 synonym: "Formylasparagine" EXACT PSI-MOD-label []
