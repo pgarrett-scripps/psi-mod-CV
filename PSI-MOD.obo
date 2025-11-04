@@ -41178,7 +41178,7 @@ def: "A chemical transformation driven by a radical reaction." [PubMed:14670063,
 id: MOD:02099
 name: residue modified by radical hydroxylation
 def: "A hydroxyl substition induced by a radical reaction." [PubMed:17683160]
-is_a: MOD:02098
+is_a: MOD:02098 ! residue modified by radical mechanism
 
 [Term]
 id: MOD:02100
