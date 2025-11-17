@@ -41243,10 +41243,10 @@ is_a: MOD:02099 ! residue modified by radical hydroxylation
 id: MOD:02104
 name: 4-hydroxy-L-phenylalanine
 def: "A protein modification that effectively substitutes a hydroxy group at position 4 of L-phenylalanine" [PubMed:7408053]
-synonym: "L-tyrosine" EXACT PSI-MOD-name []
-synonym: "L-Tyrosine" EXACT PSI-MOD-name []
-synonym: "(2S)-2-amino-3-(4-hydroxyphenyl)propanoic acid" EXACT PSI-MOD-name []
-synonym: "Phe->Tyr" EXACT PSI-MOD-name []
+synonym: "L-tyrosine" EXACT PSI-MOD-alternate []
+synonym: "L-Tyrosine" EXACT PSI-MOD-alternate []
+synonym: "(2S)-2-amino-3-(4-hydroxyphenyl)propanoic acid" EXACT PSI-MOD-alternate []
+synonym: "Phe->Tyr" EXACT PSI-MOD-alternate []
 subset: PSI-MOD-slim
 xref: DiffFormula: "O 1"
 xref: Origin: "F"
