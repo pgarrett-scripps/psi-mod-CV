@@ -17,8 +17,8 @@ synonymtypedef: Unimod-description "Description (full_name) from Unimod" RELATED
 synonymtypedef: Unimod-interim "Interim label from Unimod" RELATED
 synonymtypedef: UniProt-feature "Protein feature description from UniProtKB" EXACT
 default-namespace: PSI-MOD
-data-version: 1.032.0
-remark: PSI-MOD version: 1.032.0
+data-version: 1.032.3
+remark: PSI-MOD version: 1.032.3
 remark: RESID release: 75.00
 remark: ISO-8601 date: 2022-06-13 12:12Z
 remark: Annotation note 01 - "[PSI-MOD:ref]" has been replaced by PubMed:18688235.
@@ -27587,9 +27587,9 @@ synonym: "beta-phenylserine" EXACT RESID-alternate []
 synonym: "hydroxylationf" EXACT OMSSA-label []
 synonym: "L-threo-3-phenylserine" EXACT RESID-alternate []
 synonym: "MOD_RES 3-hydroxyphenylalanine" EXACT UniProt-feature []
-synonym: "L-m-Tyrosine"
-synonym: "(S)-2-amino-3-(3-hydroxyphenyl)propanoic acid"
-synonym: "Meta-Tyrosine"
+synonym: "L-m-Tyrosine" EXACT PSI-MOD-alternate []
+synonym: "(S)-2-amino-3-(3-hydroxyphenyl)propanoic acid" EXACT PSI-MOD-alternate []
+synonym: "Meta-Tyrosine" EXACT PSI-MOD-alternate []
 xref: DiffAvg: "16.00"
 xref: DiffFormula: "C 0 H 0 N 0 O 1"
 xref: DiffMono: "15.994915"
