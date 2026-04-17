@@ -1,7 +1,7 @@
 format-version: 1.2
 ontology: mod
-date: 20:03:2026 12:00
-saved-by: Patrick Garrett
+date: 17:04:2026 12:00
+saved-by: Ralf Gabriels
 subsetdef: PSI-MOD-slim "subset of protein modifications"
 synonymtypedef: DeltaMass-label "Label from MS DeltaMass" EXACT
 synonymtypedef: OMSSA-label "Short label from OMSSA" EXACT
@@ -17,8 +17,8 @@ synonymtypedef: Unimod-description "Description (full_name) from Unimod" RELATED
 synonymtypedef: Unimod-interim "Interim label from Unimod" RELATED
 synonymtypedef: UniProt-feature "Protein feature description from UniProtKB" EXACT
 default-namespace: PSI-MOD
-data-version: 1.032.5
-remark: PSI-MOD version: 1.032.5
+data-version: 1.033.0
+remark: PSI-MOD version: 1.033.0
 remark: RESID release: 75.00
 remark: ISO-8601 date: 2022-06-13 12:12Z
 remark: Annotation note 01 - "[PSI-MOD:ref]" has been replaced by PubMed:18688235.
@@ -153,7 +153,6 @@ xref: MassMono: "71.037114"
 xref: Origin: "A"
 xref: Source: "natural"
 xref: TermSpec: "none"
-is_a: MOD:00570 ! residues isobaric at 71.037114 Da
 is_a: MOD:00859 ! modified residue that can arise from different natural residues
 is_a: MOD:01441 ! natural, standard, encoded residue
 
@@ -319,7 +318,6 @@ xref: MassMono: "128.058578"
 xref: Origin: "Q"
 xref: Source: "natural"
 xref: TermSpec: "none"
-is_a: MOD:00894 ! residues isobaric at 128.058578 Da
 is_a: MOD:01441 ! natural, standard, encoded residue
 
 [Term]
@@ -391,7 +389,6 @@ xref: MassMono: "113.084064"
 xref: Origin: "I"
 xref: Source: "natural"
 xref: TermSpec: "none"
-is_a: MOD:00306 ! residues isobaric at 113.084064 Da
 is_a: MOD:01441 ! natural, standard, encoded residue
 
 [Term]
@@ -415,7 +412,6 @@ xref: MassMono: "113.084064"
 xref: Origin: "L"
 xref: Source: "natural"
 xref: TermSpec: "none"
-is_a: MOD:00306 ! residues isobaric at 113.084064 Da
 is_a: MOD:01441 ! natural, standard, encoded residue
 
 [Term]
@@ -439,7 +435,6 @@ xref: MassMono: "128.094963"
 xref: Origin: "K"
 xref: Source: "natural"
 xref: TermSpec: "none"
-is_a: MOD:00893 ! residues isobaric at 128.0-128.1
 is_a: MOD:01441 ! natural, standard, encoded residue
 
 [Term]
@@ -983,7 +978,6 @@ xref: TermSpec: "none"
 xref: Unimod: "Unimod:21"
 xref: uniprot.ptm:PTM-0251
 is_a: MOD:00696 ! phosphorylated residue
-is_a: MOD:00777 ! residues isobaric at 182.96-182.98 Da
 is_a: MOD:00905 ! modified L-cysteine residue
 
 [Term]
@@ -1083,7 +1077,6 @@ xref: Source: "natural"
 xref: TermSpec: "none"
 xref: Unimod: "Unimod:21"
 xref: uniprot.ptm:PTM-0253
-is_a: MOD:00771 ! residues isobaric at 166.98-167.00 Da
 is_a: MOD:00916 ! modified L-serine residue
 is_a: MOD:01455 ! O-phosphorylated residue
 
@@ -1116,7 +1109,6 @@ xref: Source: "natural"
 xref: TermSpec: "none"
 xref: Unimod: "Unimod:21"
 xref: uniprot.ptm:PTM-0254
-is_a: MOD:00773 ! residues isobaric at 181.00-181.02 Da
 is_a: MOD:00917 ! modified L-threonine residue
 is_a: MOD:01455 ! O-phosphorylated residue
 
@@ -1149,7 +1141,6 @@ xref: Source: "natural"
 xref: TermSpec: "none"
 xref: Unimod: "Unimod:21"
 xref: uniprot.ptm:PTM-0255
-is_a: MOD:00774 ! residues isobaric at 243.02-243.03 Da
 is_a: MOD:00919 ! modified L-tyrosine residue
 is_a: MOD:01455 ! O-phosphorylated residue
 
@@ -1816,7 +1807,6 @@ xref: Origin: "G"
 xref: Source: "natural"
 xref: TermSpec: "N-term"
 xref: uniprot.ptm:PTM-0483
-is_a: MOD:00570 ! residues isobaric at 71.037114 Da
 is_a: MOD:00714 ! methylated glycine
 is_a: MOD:01680 ! alpha-amino monomethylated residue
 
@@ -2027,7 +2017,6 @@ xref: uniprot.ptm:PTM-0183
 is_a: MOD:00599 ! monomethylated residue
 is_a: MOD:00602 ! N-methylated residue
 is_a: MOD:00673 ! methylated asparagine
-is_a: MOD:00894 ! residues isobaric at 128.058578 Da
 
 [Term]
 id: MOD:00080
@@ -4689,7 +4678,6 @@ xref: Source: "natural"
 xref: TermSpec: "none"
 xref: Unimod: "Unimod:40"
 is_a: MOD:00695 ! sulfated residue
-is_a: MOD:00777 ! residues isobaric at 182.96-182.98 Da
 is_a: MOD:00905 ! modified L-cysteine residue
 
 [Term]
@@ -4724,7 +4712,6 @@ xref: TermSpec: "none"
 xref: Unimod: "Unimod:40"
 xref: uniprot.ptm:PTM-0286
 is_a: MOD:00695 ! sulfated residue
-is_a: MOD:00774 ! residues isobaric at 243.02-243.03 Da
 is_a: MOD:00919 ! modified L-tyrosine residue
 
 [Term]
@@ -5187,7 +5174,6 @@ xref: Origin: "A"
 xref: Source: "natural"
 xref: TermSpec: "none"
 xref: uniprot.ptm:PTM-0112
-is_a: MOD:00570 ! residues isobaric at 71.037114 Da
 is_a: MOD:00862 ! D-alanine
 is_a: MOD:00901 ! modified L-alanine residue
 
@@ -5214,7 +5200,6 @@ xref: Origin: "I"
 xref: Source: "natural"
 xref: TermSpec: "none"
 xref: uniprot.ptm:PTM-0114
-is_a: MOD:00306 ! residues isobaric at 113.084064 Da
 is_a: MOD:00664 ! stereoisomerized residue
 is_a: MOD:00910 ! modified L-isoleucine residue
 
@@ -5326,7 +5311,6 @@ xref: Origin: "L"
 xref: Source: "natural"
 xref: TermSpec: "none"
 xref: uniprot.ptm:PTM-0119
-is_a: MOD:00306 ! residues isobaric at 113.084064 Da
 is_a: MOD:00664 ! stereoisomerized residue
 is_a: MOD:00911 ! modified L-leucine residue
 
@@ -7220,7 +7204,6 @@ xref: TermSpec: "none"
 xref: Unimod: "Unimod:423"
 xref: uniprot.ptm:PTM-0282
 is_a: MOD:00745 ! selenium containing residue
-is_a: MOD:00778 ! residues isobaric at 182.9-183.0 Da
 is_a: MOD:00905 ! modified L-cysteine residue
 
 [Term]
@@ -7793,8 +7776,7 @@ xref: MassMono: "113.084064"
 xref: Origin: "X"
 xref: Source: "none"
 xref: TermSpec: "none"
-is_a: MOD:00569 ! residues isobaric at a resolution below 0.000001 Da
-is_a: MOD:00624 ! residues isobaric at 113.0-113.1 Da
+is_obsolete: true
 
 [Term]
 id: MOD:00307
@@ -8601,7 +8583,6 @@ xref: Source: "natural"
 xref: TermSpec: "none"
 xref: Unimod: "Unimod:438"
 xref: uniprot.ptm:PTM-0650
-is_a: MOD:00893 ! residues isobaric at 128.0-128.1
 is_a: MOD:00905 ! modified L-cysteine residue
 
 [Term]
@@ -9305,7 +9286,6 @@ xref: TermSpec: "none"
 xref: Unimod: "Unimod:40"
 xref: uniprot.ptm:PTM-0284
 is_a: MOD:00695 ! sulfated residue
-is_a: MOD:00771 ! residues isobaric at 166.98-167.00 Da
 is_a: MOD:00916 ! modified L-serine residue
 
 [Term]
@@ -9334,7 +9314,6 @@ xref: TermSpec: "none"
 xref: Unimod: "Unimod:40"
 xref: uniprot.ptm:PTM-0285
 is_a: MOD:00695 ! sulfated residue
-is_a: MOD:00773 ! residues isobaric at 181.00-181.02 Da
 is_a: MOD:00917 ! modified L-threonine residue
 
 [Term]
@@ -12796,7 +12775,7 @@ id: MOD:00538
 name: protein modification categorized by isobaric sets
 def: "Modified amino acid residues groups into isobaric sets at particular mass resolution cut-offs." [PubMed:18688235]
 subset: PSI-MOD-slim
-is_a: MOD:00000 ! protein modification
+is_obsolete: true
 
 [Term]
 id: MOD:00539
@@ -13343,14 +13322,13 @@ id: MOD:00569
 name: residues isobaric at a resolution below 0.000001 Da
 def: "Natural or modified residues that are isobaric at a resolution below 0.000001 Da." [PubMed:18688235]
 subset: PSI-MOD-slim
-is_a: MOD:00770 ! residues isobaric at a resolution below 0.01 Da
+is_obsolete: true
 
 [Term]
 id: MOD:00570
 name: residues isobaric at 71.037114 Da
 def: "Natural or modified residues with a mass of 71.037114 Da." [PubMed:18688235]
-is_a: MOD:00569 ! residues isobaric at a resolution below 0.000001 Da
-is_a: MOD:00769 ! residues isobaric at 71.0-71.1 Da
+is_obsolete: true
 
 [Term]
 id: MOD:00571
@@ -13798,8 +13776,7 @@ id: MOD:00594
 name: residues isobaric at 113.047678 Da
 def: "Natural or modified resiues with a mass of 113.047678 Da." [PubMed:18688235]
 subset: PSI-MOD-slim
-is_a: MOD:00569 ! residues isobaric at a resolution below 0.000001 Da
-is_a: MOD:00624 ! residues isobaric at 113.0-113.1 Da
+is_obsolete: true
 
 [Term]
 id: MOD:00595
@@ -14181,7 +14158,7 @@ id: MOD:00616
 name: residues isobaric at a resolution below 0.1 Da
 def: "Natural or modified residues that are isobaric at a resolution below 0.1 Da." [PubMed:18688235]
 subset: PSI-MOD-slim
-is_a: MOD:00538 ! protein modification categorized by isobaric sets
+is_obsolete: true
 
 [Term]
 id: MOD:00617
@@ -14323,7 +14300,7 @@ id: MOD:00624
 name: residues isobaric at 113.0-113.1 Da
 def: "Natural or modified residues with a mass of 113.0-113.1 Da." [PubMed:18688235]
 subset: PSI-MOD-slim
-is_a: MOD:00616 ! residues isobaric at a resolution below 0.1 Da
+is_obsolete: true
 
 [Term]
 id: MOD:00625
@@ -16453,21 +16430,21 @@ id: MOD:00769
 name: residues isobaric at 71.0-71.1 Da
 def: "Natural or modified residues with a mass of 71.0-71.1 Da." [PubMed:18688235]
 subset: PSI-MOD-slim
-is_a: MOD:00616 ! residues isobaric at a resolution below 0.1 Da
+is_obsolete: true
 
 [Term]
 id: MOD:00770
 name: residues isobaric at a resolution below 0.01 Da
 def: "Natural or modified residues that are isobaric at a resolution below 0.01 Da." [PubMed:18688235]
 subset: PSI-MOD-slim
-is_a: MOD:00616 ! residues isobaric at a resolution below 0.1 Da
+is_obsolete: true
 
 [Term]
 id: MOD:00771
 name: residues isobaric at 166.98-167.00 Da
 def: "Natural or modified residues with a mass of 166.98-167.00 Da." [PubMed:18688235]
 subset: PSI-MOD-slim
-is_a: MOD:00770 ! residues isobaric at a resolution below 0.01 Da
+is_obsolete: true
 
 [Term]
 id: MOD:00772
@@ -16481,14 +16458,14 @@ id: MOD:00773
 name: residues isobaric at 181.00-181.02 Da
 def: "Natural or modified residues with a mass of 181.00-181.02 Da." [PubMed:18688235]
 subset: PSI-MOD-slim
-is_a: MOD:00770 ! residues isobaric at a resolution below 0.01 Da
+is_obsolete: true
 
 [Term]
 id: MOD:00774
 name: residues isobaric at 243.02-243.03 Da
 def: "Natural or modified residues with a mass of 243.02-243.03 Da." [PubMed:18688235]
 subset: PSI-MOD-slim
-is_a: MOD:00770 ! residues isobaric at a resolution below 0.01 Da
+is_obsolete: true
 
 [Term]
 id: MOD:00775
@@ -16535,15 +16512,14 @@ is_a: MOD:02088 ! natural, standard, encoded residue substitution
 id: MOD:00777
 name: residues isobaric at 182.96-182.98 Da
 def: "Natural or modified residues with a mass of 182.96-182.98 Da." [PubMed:18688235]
-is_a: MOD:00770 ! residues isobaric at a resolution below 0.01 Da
-is_a: MOD:00778 ! residues isobaric at 182.9-183.0 Da
+is_obsolete: true
 
 [Term]
 id: MOD:00778
 name: residues isobaric at 182.9-183.0 Da
 def: "Natural or modified residues with a mass of 182.9-183.0 Da." [PubMed:18688235]
 subset: PSI-MOD-slim
-is_a: MOD:00616 ! residues isobaric at a resolution below 0.1 Da
+is_obsolete: true
 
 [Term]
 id: MOD:00779
@@ -18741,15 +18717,14 @@ id: MOD:00893
 name: residues isobaric at 128.0-128.1
 def: "Natural or modified residues with a mass of 128.0-128.1 Da." [PubMed:18688235]
 subset: PSI-MOD-slim
-is_a: MOD:00616 ! residues isobaric at a resolution below 0.1 Da
+is_obsolete: true
 
 [Term]
 id: MOD:00894
 name: residues isobaric at 128.058578 Da
 def: "Natural or modified resiues with a mass of 128.058578 Da." [PubMed:18688235]
 subset: PSI-MOD-slim
-is_a: MOD:00569 ! residues isobaric at a resolution below 0.000001 Da
-is_a: MOD:00893 ! residues isobaric at 128.0-128.1
+is_obsolete: true
 
 [Term]
 id: MOD:00895
@@ -20789,7 +20764,6 @@ xref: TermSpec: "none"
 xref: Unimod: "Unimod:35"
 xref: uniprot.ptm:PTM-0149
 is_a: MOD:00425 ! monohydroxylated residue
-is_a: MOD:00594 ! residues isobaric at 113.047678 Da
 is_a: MOD:00678 ! hydroxylated proline
 
 [Term]
@@ -20823,7 +20797,6 @@ xref: Origin: "X"
 xref: Source: "artifact"
 xref: TermSpec: "none"
 is_a: MOD:00850 ! unnatural residue
-is_a: MOD:00306 ! residues isobaric at 113.084064 Da
 
 [Term]
 id: MOD:01027
@@ -23041,7 +23014,6 @@ xref: MassMono: "71.013304"
 xref: Origin: "X"
 xref: Source: "none"
 xref: TermSpec: "N-term"
-is_a: MOD:00769 ! residues isobaric at 71.0-71.1 Da
 is_a: MOD:00859 ! modified residue that can arise from different natural residues
 
 [Term]
@@ -28635,7 +28607,6 @@ xref: Origin: "X"
 xref: Source: "artifact"
 xref: TermSpec: "none"
 is_a: MOD:00859 ! modified residue that can arise from different natural residues
-is_a: MOD:00594 ! residues isobaric at 113.047678 Da
 
 [Term]
 id: MOD:01441
@@ -29455,7 +29426,6 @@ xref: TermSpec: "none"
 xref: Unimod: "Unimod:532"
 is_a: MOD:01428 ! (13)C isotope tagged reagent
 is_a: MOD:01430 ! (18)O isotope tagged reagent
-is_a: MOD:01516 ! modifications with monoisotopic mass diferences that are nominally equal at 144.099-144.106 Da.
 is_a: MOD:01518 ! iTRAQ4plex reporter+balance reagent acylated residue
 
 [Term]
@@ -29618,7 +29588,6 @@ xref: Unimod: "Unimod:533"
 is_a: MOD:01428 ! (13)C isotope tagged reagent
 is_a: MOD:01429 ! (15)N isotope tagged reagent
 is_a: MOD:01430 ! (18)O isotope tagged reagent
-is_a: MOD:01516 ! modifications with monoisotopic mass diferences that are nominally equal at 144.099-144.106 Da.
 is_a: MOD:01518 ! iTRAQ4plex reporter+balance reagent acylated residue
 
 [Term]
@@ -29780,7 +29749,6 @@ xref: TermSpec: "none"
 xref: Unimod: "Unimod:214"
 is_a: MOD:01428 ! (13)C isotope tagged reagent
 is_a: MOD:01429 ! (15)N isotope tagged reagent
-is_a: MOD:01517 ! modifications with monoisotopic mass differences that are nominally equal at 144.102062 Da
 is_a: MOD:01518 ! iTRAQ4plex reporter+balance reagent acylated residue
 
 [Term]
@@ -29945,7 +29913,6 @@ xref: Unimod: "Unimod:214"
 xref: Unimod: "Unimod:889"
 is_a: MOD:01428 ! (13)C isotope tagged reagent
 is_a: MOD:01429 ! (15)N isotope tagged reagent
-is_a: MOD:01517 ! modifications with monoisotopic mass differences that are nominally equal at 144.102062 Da
 is_a: MOD:01518 ! iTRAQ4plex reporter+balance reagent acylated residue
 is_a: MOD:01863 ! mTRAQ reporter+balance reagent acylated residue
 
@@ -30101,36 +30068,35 @@ id: MOD:01513
 name: modifications with monoisotopic mass differences that are nominally equal at a resolution below 0.1 Da
 def: "Modifications that have monoisotopic mass differences from their respective origins that are nominally equal (sometimes called isobaric) at a resolution below 0.1 Da." [PubMed:18688235]
 subset: PSI-MOD-slim
-is_a: MOD:00538 ! protein modification categorized by isobaric sets
+is_obsolete: true
 
 [Term]
 id: MOD:01514
 name: modifications with monoisotopic mass differences that are nominally equal at a resolution below 0.01 Da
 def: "Modifications that have monoisotopic mass differences from their respective origins that are nominally equal (sometimes called isobaric) at a resolution below 0.01 Da." [PubMed:18688235]
 subset: PSI-MOD-slim
-is_a: MOD:01513 ! modifications with monoisotopic mass differences that are nominally equal at a resolution below 0.1 Da
+is_obsolete: true
 
 [Term]
 id: MOD:01515
 name: modifications with monoisotopic mass differences that are nominally equal at a resolution below 0.000001 Da
 def: "Modifications that have monoisotopic mass differences from their respective origins that are nominally equal (sometimes called isobaric) at a resolution below 0.000001 Da." [PubMed:18688235]
 subset: PSI-MOD-slim
-is_a: MOD:01514 ! modifications with monoisotopic mass differences that are nominally equal at a resolution below 0.01 Da
+is_obsolete: true
 
 [Term]
 id: MOD:01516
 name: modifications with monoisotopic mass diferences that are nominally equal at 144.099-144.106 Da.
 def: "Modifications that have monoisotopic mass differences from their respective origins of 144.099-144.106 Da." [PubMed:18688235]
 subset: PSI-MOD-slim
-is_a: MOD:01514 ! modifications with monoisotopic mass differences that are nominally equal at a resolution below 0.01 Da
+is_obsolete: true
 
 [Term]
 id: MOD:01517
 name: modifications with monoisotopic mass differences that are nominally equal at 144.102062 Da
 def: "Modifications that have monoisotopic mass differences from their respective origins of 144.102062 Da." [PubMed:18688235]
 subset: PSI-MOD-slim
-is_a: MOD:01515 ! modifications with monoisotopic mass differences that are nominally equal at a resolution below 0.000001 Da
-is_a: MOD:01516 ! modifications with monoisotopic mass diferences that are nominally equal at 144.099-144.106 Da.
+is_obsolete: true
 
 [Term]
 id: MOD:01518
@@ -30301,7 +30267,6 @@ xref: Unimod: "Unimod:730"
 is_a: MOD:01428 ! (13)C isotope tagged reagent
 is_a: MOD:01429 ! (15)N isotope tagged reagent
 is_a: MOD:01526 ! iTRAQ8plex reporter+balance reagent acylated residue
-is_a: MOD:01591 ! modifications with monoisotopic mass differences that are nominally equal at 304.205359 Da
 
 [Term]
 id: MOD:01529
@@ -30469,7 +30434,6 @@ xref: Unimod: "Unimod:730"
 is_a: MOD:01428 ! (13)C isotope tagged reagent
 is_a: MOD:01429 ! (15)N isotope tagged reagent
 is_a: MOD:01526 ! iTRAQ8plex reporter+balance reagent acylated residue
-is_a: MOD:01591 ! modifications with monoisotopic mass differences that are nominally equal at 304.205359 Da
 
 [Term]
 id: MOD:01536
@@ -30628,7 +30592,6 @@ xref: Unimod: "Unimod:731"
 is_a: MOD:01428 ! (13)C isotope tagged reagent
 is_a: MOD:01429 ! (15)N isotope tagged reagent
 is_a: MOD:01526 ! iTRAQ8plex reporter+balance reagent acylated residue
-is_a: MOD:01584 ! modifications with monoisotopic mass differences that are nominally equal at 304.199039 Da
 
 [Term]
 id: MOD:01543
@@ -30781,7 +30744,6 @@ xref: Unimod: "Unimod:730"
 is_a: MOD:01428 ! (13)C isotope tagged reagent
 is_a: MOD:01429 ! (15)N isotope tagged reagent
 is_a: MOD:01526 ! iTRAQ8plex reporter+balance reagent acylated residue
-is_a: MOD:01591 ! modifications with monoisotopic mass differences that are nominally equal at 304.205359 Da
 
 [Term]
 id: MOD:01550
@@ -30937,7 +30899,6 @@ xref: Unimod: "Unimod:730"
 is_a: MOD:01428 ! (13)C isotope tagged reagent
 is_a: MOD:01429 ! (15)N isotope tagged reagent
 is_a: MOD:01526 ! iTRAQ8plex reporter+balance reagent acylated residue
-is_a: MOD:01591 ! modifications with monoisotopic mass differences that are nominally equal at 304.205359 Da
 
 [Term]
 id: MOD:01557
@@ -31092,7 +31053,6 @@ xref: Unimod: "Unimod:731"
 is_a: MOD:01428 ! (13)C isotope tagged reagent
 is_a: MOD:01429 ! (15)N isotope tagged reagent
 is_a: MOD:01526 ! iTRAQ8plex reporter+balance reagent acylated residue
-is_a: MOD:01584 ! modifications with monoisotopic mass differences that are nominally equal at 304.199039 Da
 
 [Term]
 id: MOD:01564
@@ -31244,7 +31204,6 @@ xref: Unimod: "Unimod:731"
 is_a: MOD:01428 ! (13)C isotope tagged reagent
 is_a: MOD:01429 ! (15)N isotope tagged reagent
 is_a: MOD:01526 ! iTRAQ8plex reporter+balance reagent acylated residue
-is_a: MOD:01584 ! modifications with monoisotopic mass differences that are nominally equal at 304.199039 Da
 
 [Term]
 id: MOD:01571
@@ -31396,7 +31355,6 @@ xref: Unimod: "Unimod:731"
 is_a: MOD:01428 ! (13)C isotope tagged reagent
 is_a: MOD:01429 ! (15)N isotope tagged reagent
 is_a: MOD:01526 ! iTRAQ8plex reporter+balance reagent acylated residue
-is_a: MOD:01584 ! modifications with monoisotopic mass differences that are nominally equal at 304.199039 Da
 
 [Term]
 id: MOD:01578
@@ -31530,8 +31488,7 @@ id: MOD:01584
 name: modifications with monoisotopic mass differences that are nominally equal at 304.199039 Da
 def: "Modifications that have monoisotopic mass differences from their respective origins of 304.199039 Da." [PubMed:18688235]
 subset: PSI-MOD-slim
-is_a: MOD:01515 ! modifications with monoisotopic mass differences that are nominally equal at a resolution below 0.000001 Da
-is_a: MOD:01592 ! modifications with monoisotopic mass differences that are nominally equal at 304.199-304.206 Da
+is_obsolete: true
 
 [Term]
 id: MOD:01585
@@ -31684,15 +31641,14 @@ id: MOD:01591
 name: modifications with monoisotopic mass differences that are nominally equal at 304.205359 Da
 def: "Modifications that have monoisotopic mass differences from their respective origins of 304.205359 Da." [PubMed:18688235]
 subset: PSI-MOD-slim
-is_a: MOD:01515 ! modifications with monoisotopic mass differences that are nominally equal at a resolution below 0.000001 Da
-is_a: MOD:01592 ! modifications with monoisotopic mass differences that are nominally equal at 304.199-304.206 Da
+is_obsolete: true
 
 [Term]
 id: MOD:01592
 name: modifications with monoisotopic mass differences that are nominally equal at 304.199-304.206 Da
 def: "Modifications that have monoisotopic mass differences from their respective origins of 304.199-304.206 Da." [PubMed:18688235]
 subset: PSI-MOD-slim
-is_a: MOD:01514 ! modifications with monoisotopic mass differences that are nominally equal at a resolution below 0.01 Da
+is_obsolete: true
 
 [Term]
 id: MOD:01593
@@ -36659,7 +36615,6 @@ xref: TermSpec: "none"
 xref: uniprot.ptm:PTM-0442
 is_a: MOD:00664 ! stereoisomerized residue
 is_a: MOD:00910 ! modified L-isoleucine residue
-is_a: MOD:00306 ! residues isobaric at 113.084064 Da
 
 [Term]
 id: MOD:01841
@@ -37087,7 +37042,6 @@ xref: Source: "artifact"
 xref: TermSpec: "none"
 xref: Unimod: "Unimod:888"
 is_a: MOD:01863 ! mTRAQ reporter+balance reagent acylated residue
-is_a: MOD:01868 ! modifications with monoisotopic mass differences that are nominally equal at 140.094963 Da
 
 [Term]
 id: MOD:01865
@@ -37161,7 +37115,7 @@ id: MOD:01868
 name: modifications with monoisotopic mass differences that are nominally equal at 140.094963 Da
 def: "Modifications that have monoisotopic mass differences from their respective origins of 140.094963 Da." [PubMed:18688235]
 subset: PSI-MOD-slim
-is_a: MOD:01515 ! modifications with monoisotopic mass differences that are nominally equal at a resolution below 0.000001 Da
+is_obsolete: true
 
 [Term]
 id: MOD:01869
@@ -40302,7 +40256,6 @@ xref: TermSpec: "none"
 is_a: MOD:01426 ! isotope tagged reagent derivatized residue
 is_a: MOD:01705 ! isotope tagged reagent acylated residue
 is_a: MOD:01709 ! iTRAQ4plex reporter+balance reagent N-acylated residue
-is_a: MOD:01513 ! modifications with monoisotopic mass differences that are nominally equal at a resolution below 0.1 Da
 
 [Term]
 id: MOD:02029
@@ -41158,7 +41111,6 @@ is_a: MOD:00599 ! monomethylated residue
 is_a: MOD:00602 ! N-methylated residue
 is_a: MOD:00673 ! methylated asparagine
 is_a: MOD:02097 ! modified D-asparagine residue
-is_a: MOD:00894 ! residues isobaric at 128.058578 Da
 
 [Term]
 id: MOD:02097
