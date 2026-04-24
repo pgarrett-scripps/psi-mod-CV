@@ -5045,7 +5045,7 @@ xref: Origin: "C"
 xref: Source: "natural"
 xref: TermSpec: "none"
 xref: Unimod: "Unimod:402"
-xref: uniprot.ptm:PTM-0034
+xref: uniprot.ptm:PTM-0033
 is_a: MOD:01169 ! L-3-oxoalanine
 
 [Term]
