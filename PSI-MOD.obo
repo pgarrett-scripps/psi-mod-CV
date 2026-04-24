@@ -17831,6 +17831,7 @@ xref: MassMono: "85.016378"
 xref: Origin: "S"
 xref: Source: "natural"
 xref: TermSpec: "none"
+xref: uniprot.ptm:PTM-0034
 xref: Unimod: "Unimod:401"
 is_a: MOD:00916 ! modified L-serine residue
 is_a: MOD:01169 ! L-3-oxoalanine
