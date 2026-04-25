@@ -39139,7 +39139,7 @@ xref: MassMono: "359.180484"
 xref: Origin: "R"
 xref: Source: "natural"
 xref: TermSpec: "none"
-xref: uniprot.ptm:PTM-0518
+xref: uniprot.ptm:PTM-0519
 is_a: MOD:00448 ! mono-N-acetylaminoglucosylated residue
 is_a: MOD:01980 ! omega-N-glycosyl-L-arginine
 
