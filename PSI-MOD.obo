@@ -6166,7 +6166,7 @@ xref: Origin: "C"
 xref: Source: "natural"
 xref: TermSpec: "none"
 xref: Unimod: "Unimod:34"
-xref: uniprot.ptm:PTM-0636
+xref: uniprot.ptm:PTM-0279
 is_a: MOD:00654 ! S-methylated residue
 is_a: MOD:01682 ! monomethylated L-cysteine
 
