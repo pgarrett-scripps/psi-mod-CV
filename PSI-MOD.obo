@@ -2655,7 +2655,7 @@ xref: MassMono: "147.059209"
 xref: Origin: "M"
 xref: Source: "natural"
 xref: TermSpec: "C-term"
-xref: uniprot.ptm:PTM-0164
+xref: uniprot.ptm:PTM-0173
 is_a: MOD:00883 ! C1-amidated residue
 is_a: MOD:00913 ! modified L-methionine residue
 
