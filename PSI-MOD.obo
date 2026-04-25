@@ -36179,7 +36179,7 @@ xref: MassMono: "370.142976"
 xref: Origin: "W, W"
 xref: Source: "natural"
 xref: TermSpec: "none"
-xref: uniprot.ptm:PTM-0544
+xref: uniprot.ptm:PTM-0445
 is_a: MOD:00692 ! uncategorized crosslinked residues
 is_a: MOD:02057 ! crosslinked L-tryptophan residue
 
