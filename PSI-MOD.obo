@@ -4886,7 +4886,7 @@ xref: MassMono: "263.989825"
 xref: Origin: "W"
 xref: Source: "natural"
 xref: TermSpec: "none"
-xref: Unimod: "Unimod:398"
+xref: Unimod: "Unimod:340"
 xref: uniprot.ptm:PTM-0051
 is_a: MOD:01068 ! halogenated tryptophan
 is_a: MOD:01912 ! monobrominated residue
