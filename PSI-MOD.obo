@@ -7883,7 +7883,7 @@ xref: MassMono: "170.116761"
 xref: Origin: "R"
 xref: Source: "hypothetical"
 xref: TermSpec: "none"
-xref: uniprot.ptm:PTM-0185
+xref: uniprot.ptm:PTM-0184
 is_a: MOD:00414 ! monomethylated L-arginine
 is_a: MOD:00602 ! N-methylated residue
 
