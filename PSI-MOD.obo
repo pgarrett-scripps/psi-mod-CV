@@ -17801,7 +17801,7 @@ xref: MassMono: "274.116486"
 xref: Origin: "S"
 xref: Source: "natural"
 xref: TermSpec: "none"
-xref: uniprot.ptm:PTM-0553
+xref: uniprot.ptm:PTM-0554
 is_a: MOD:00002 ! O-glycosyl-L-serine
 
 [Term]
