@@ -37331,7 +37331,7 @@ is_a: MOD:02067 ! metal or metal cluster coordinated L-cysteine residue
 [Term]
 id: MOD:01880
 name: L-deoxyhypusine
-def: "modification from RESID" [ChEBI:50038, PubMed:16452303, RESID:AA0564]
+def: "modification from RESID" [ChEBI:50038, PubMed:16452303, RESID:AA0564, Unimod:1041#K]
 synonym: "(2S)-2-amino-6-[(4-aminobutyl)amino]hexanoic acid" EXACT RESID-systematic []
 synonym: "deoxyhypusine" EXACT RESID-alternate []
 synonym: "L-deoxyhypusine" EXACT RESID-name []
@@ -37347,6 +37347,7 @@ xref: Origin: "K"
 xref: Source: "natural"
 xref: TermSpec: "none"
 xref: uniprot.ptm:PTM-0684
+xref: Unimod: "Unimod:1041"
 is_a: MOD:00912 ! modified L-lysine residue
 is_a: MOD:01884 ! 4-aminobutylated residue
 
